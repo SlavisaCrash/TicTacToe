@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+#parentBox{
+	font-size: 0px;
+	width: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	background-color: #FFFF99;
+}
+
+#block{
+	
+}
+#result{
+	font-size: 20px;
+	margin-left: 10px;
+	width: 150px;
+	height: 154px;
+}
+#footer{
+	width: 150px;
+	margin-left: 10px;
+}
+#message{
+	font-size: 30px;
+	color: red;
+}
+#cell{
+	height: 50px;
+	width: 50px;
+	border: 1px solid black;
+	cursor: pointer;
+	display: table-cell;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;	
+}
+
+#cell:HOVER {
+	background-color: #FFFFFF;
+}
